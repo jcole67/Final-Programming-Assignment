@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     
-    //Creat constants variables for the min/max parameters
+    	//Creat constants variables for the min/max parameters
 	const int Min_Num = 1, Max_Num = 100;
 	
 	//Create variable for number of iterations (NOI), the random number, and the user number
@@ -70,5 +70,6 @@ int main()
     else
         cout << "You got it on the first guess!" << endl;
 
+	system("pause");
 	return 0;
 }
